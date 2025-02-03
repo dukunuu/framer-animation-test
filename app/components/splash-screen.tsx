@@ -75,7 +75,7 @@ export default function SplashScreen() {
             animate={{ opacity: 1 }}
             transition={{ delay: messages.length * 0.5 + 2, duration: 1 }}
             className="text-amber-600 underline cursor-pointer animate-pulse mt-4 text-sm hover:text-amber-700"
-            onClick={() => (window.location.href = "?hidden-compliments=true")} // Replace with your actual route
+            onClick={() => (window.location.href = "/compliments")} // Replace with your actual route
           >
             "Why Tsendee deserves a birthday crown 👑🦙"
           </motion.a>
